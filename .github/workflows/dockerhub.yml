@@ -16,6 +16,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USER }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-        repository: rmortale/javalin-demo
+        repository: rmortale/static-web
         tag_with_sha: true
         tags: latest
